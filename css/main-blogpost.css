@@ -61,9 +61,11 @@ blockquote{
     line-height: 24px;
 }
 
+figcaption{
+    text-align: center;
+}
 
-figcaption,
-a{
+figcaption a{
     font-family: "Montserrat", sans-serif;
     color: var(--lightgrey);
     font-size: 10px;
@@ -77,4 +79,19 @@ a{
     color: var(--lightgrey);
     padding-left: 20px;
     margin: 20px 0px 20px;
+}
+
+.article-share{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.article-share p{
+    font-weight: bold;
+}
+
+.article-share-icons a{
+    padding: 10px;
+    color: var(--lightgrey);
 }
